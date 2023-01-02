@@ -5,7 +5,7 @@
 ## Challenge
 -Responsive layout on all devices of different sizes.
 
-[Screenshot of the finished challenge]()
+[Screenshot of the finished challenge](images/qr-component-screenshot.png)
 
 [Live site of the challenge]()
 
