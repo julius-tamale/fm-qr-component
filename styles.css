@@ -22,7 +22,7 @@ body {
 }
 .container {
     background-color: var(--color-one);
-    max-width: 350px;
+    max-width: 275px;
     width: 90%;
 }
 .container {
@@ -34,8 +34,7 @@ body {
 }
 .container > p {
     text-align: center;
-    margin-top: -20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     /*display: none;*/
 }
 .container > p a:hover {
@@ -49,17 +48,19 @@ body {
 .img-con img {
     max-width: 85%;
     display: block;
-    margin: 20px auto 40px;
+    margin: 15px auto 20px;
     border-radius: 10px;
 }
-h2 {
+h1{
+    font-size: 18px;
     text-align: center;
     color: var(--color-four);
     font-weight: 700;
-    padding: 0 30px 40px;
+    padding: 0 20px 20px;
 }
 .text-con p {
     color: var(--color-three);
     text-align: center;
-    padding: 0 50px 40px;
+    padding: 0 30px 10px;
+    font-size: 13px;
 }
