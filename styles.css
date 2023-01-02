@@ -4,7 +4,7 @@
     --color-two: hsl(212, 45%, 89%);
     --color-three: hsl(220, 15%, 55%);
     --color-four: hsl(218, 44%, 22%);
-    --ff-one: 'Outfit' sans-serif;
+    --ff-one: 'Outfit', sans-serif;
 }
 * {
     margin: 0;
@@ -15,7 +15,51 @@ body {
     font-size: 15px;
     font-family: var(--ff-one);
     background-color: var(--color-two);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .container {
     background-color: var(--color-one);
+    max-width: 350px;
+    width: 90%;
+}
+.container {
+    border-radius: 15px;
+}
+.container > p a {
+    color: #a52;
+    text-decoration: none;
+}
+.container > p {
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    /*display: none;*/
+}
+.container > p a:hover {
+    color: #a52a2a;
+    text-decoration: underline wavy darkblue;
+    font-weight: 700;
+}
+.img-con {
+    width: 100%;
+}
+.img-con img {
+    max-width: 85%;
+    display: block;
+    margin: 20px auto 40px;
+    border-radius: 10px;
+}
+h2 {
+    text-align: center;
+    color: var(--color-four);
+    font-weight: 700;
+    padding: 0 30px 40px;
+}
+.text-con p {
+    color: var(--color-three);
+    text-align: center;
+    padding: 0 50px 40px;
 }
