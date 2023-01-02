@@ -11,9 +11,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-size: 15px;
     font-family: var(--ff-one);
     background-color: var(--color-two);
+}
+.container {
+    background-color: var(--color-one);
 }
